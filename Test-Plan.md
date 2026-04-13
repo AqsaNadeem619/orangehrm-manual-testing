@@ -1,6 +1,6 @@
 # Test Plan — OrangeHRM Manual Testing
 **Version:** 1.0  
-**Date:** [Your date]  
+**Date:** 11th April, 2026  
 **Prepared by:** Aqsa Nadeem  
 
 ---
@@ -15,7 +15,6 @@ To manually test the core modules of OrangeHRM (open-source HR software) and ver
 ### In Scope (what we ARE testing)
 - Login / Logout
 - Employee Management (Add, Edit, Search, Delete employee)
-- Leave Management (Apply leave, approve leave, leave balance)
 - Recruitment (Add job vacancy, view applicants)
 
 ### Out of Scope (what we are NOT testing)
@@ -28,7 +27,7 @@ To manually test the core modules of OrangeHRM (open-source HR software) and ver
 ## 3. Test Approach
 - **Type:** Manual Black Box Testing
 - **Technique:** Equivalence Partitioning, Boundary Value Analysis, Exploratory Testing
-- **Environment:** Chrome browser, Windows 10, OrangeHRM demo site
+- **Environment:** Chrome browser, MacOS sequoia, OrangeHRM demo site
 
 ---
 
