@@ -22,7 +22,7 @@ OrangeHRM was chosen because it is a feature-rich, real-world application with m
 
 | Module | Test Cases Written | Bugs Found |
 |---|---|---|
-| Login / Logout | 20 |  |
+| Login / Logout | 19 |  |
 | Employee Management | 65 |  |
 | Recruitment | 75 |  |
 | **Total** | **157** | **** |
@@ -43,7 +43,7 @@ OrangeHRM was chosen because it is a feature-rich, real-world application with m
 
 | Bug ID | Module | Title | Severity | Priority | Status |
 |---|---|---|---|---|---|
-| BUG-001 | Login | Error message exposes system info on SQL injection input | High | High | Open |
+| BUG-001 | Login | On pasting dashboard URL on browser, user is redirected to dashboard instead of login page | High | High | Open |
 | BUG-002 | Login | No account lockout after 5 failed login attempts | Medium | High | Open |
 | BUG-003 | Employee | Search returns results for deleted employees | Medium | Medium | Open |
 | BUG-004 | Leave | Leave balance does not update immediately after approval | High | High | Open |
@@ -63,12 +63,12 @@ orangehrm-manual-testing/
 ├── Test-Plan.md                       ← scope, approach, entry/exit criteria
 │
 ├── Test-Cases/
-│   ├── Login-TestCases.csv            ← 20 test cases
+│   ├── Login-TestCases.csv            ← 19 test cases
 │   ├── Employee-TestCases.csv         ← 65 test cases
 │   └── Recruitment-TestCases.csv      ← 75 test cases
 │
 ├── Bug-Reports/
-│   ├── BUG-001-SQL-Injection.md
+│   ├── BUG-001-Direct-Dashboard-Access.md
 │   ├── BUG-002-Account-Lockout.md
 │   ├── BUG-003-Deleted-Employee-Search.md
 │   ├── BUG-004-Leave-Balance.md
