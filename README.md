@@ -22,11 +22,10 @@ OrangeHRM was chosen because it is a feature-rich, real-world application with m
 
 | Module | Test Cases Written | Bugs Found |
 |---|---|---|
-| Login / Logout | 20 | 2 |
-| Employee Management | 15 | 1 |
-| Leave Management | 12 | 2 |
-| Recruitment | 8 | 1 |
-| **Total** | **55** | **6** |
+| Login / Logout | 20 |  |
+| Employee Management | 65 |  |
+| Recruitment | 75 |  |
+| **Total** | **157** | **** |
 
 ---
 
@@ -65,9 +64,8 @@ orangehrm-manual-testing/
 │
 ├── Test-Cases/
 │   ├── Login-TestCases.csv            ← 20 test cases
-│   ├── Employee-TestCases.csv         ← 15 test cases
-│   ├── Leave-TestCases.csv            ← 12 test cases
-│   └── Recruitment-TestCases.csv      ← 8 test cases
+│   ├── Employee-TestCases.csv         ← 65 test cases
+│   └── Recruitment-TestCases.csv      ← 75 test cases
 │
 ├── Bug-Reports/
 │   ├── BUG-001-SQL-Injection.md
